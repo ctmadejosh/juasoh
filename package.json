@@ -1,0 +1,40 @@
+{
+  "name": "juasoh",
+  "version": "1.0.0",
+  "description": "Joshua Asoh's interactive terminal profile card",
+  "type": "module",
+  "bin": {
+    "juasoh": "./src/cli.js"
+  },
+  "files": [
+    "src/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test",
+    "start": "node src/cli.js"
+  },
+  "dependencies": {
+    "qrcode": "^1.5.4"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ctmadejosh/juasoh.git"
+  },
+  "homepage": "https://juasoh.com",
+  "bugs": {
+    "url": "https://github.com/ctmadejosh/juasoh/issues"
+  },
+  "keywords": [
+    "terminal",
+    "business-card",
+    "resume",
+    "profile",
+    "cli"
+  ]
+}
